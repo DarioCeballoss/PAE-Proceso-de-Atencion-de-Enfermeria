@@ -1,0 +1,35 @@
+body{
+  background-image: url('https://res.cloudinary.com/djfkgqhfs/image/upload/ar_16:9,c_fill,g_auto,e_sharpen/v1534791896/fondo.png');
+  font-size: large;
+  padding:10px;
+}
+
+header{
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+nav{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/*section{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+article{
+  background: rgba(255, 255, 255, 0.3);
+}*/
+
+aside{
+  background: rgba(255, 255, 255, 0.3);
+  padding:5%;
+}
+
+footer{  
+  background: rgba(255, 255, 255, 0.3);
+}
+
+img{
+  max-width: 100%;
+}
