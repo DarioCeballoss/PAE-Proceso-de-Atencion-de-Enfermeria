@@ -12,10 +12,6 @@
   aside{
   grid-column: 1 / -1;
   }
-  
-  body {
-    background-color: orange;
-  }
 }
 
 
@@ -34,8 +30,5 @@
   }
   aside{
   grid-column: 1 / -1;
-  }
-  body {
-    background-color: orange;
   }
 }
