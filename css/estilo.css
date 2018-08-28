@@ -1,0 +1,49 @@
+body{
+  background:rgba(179, 217, 255);
+  background-image: url('https://res.cloudinary.com/djfkgqhfs/image/upload/v1534791896/fondo.png');
+  font-size: large;
+  padding:10px;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+header{
+  background: rgba(255, 255, 255);
+}
+
+nav{
+  background: rgba(255, 255, 255);
+}
+
+section{
+   background: rgba(255, 255, 255);
+  text-align:center;
+ }
+
+article{
+ text-align:center;;
+}
+aside{
+  background: rgba(255, 255, 255);
+  padding:5%;
+}
+
+footer{  
+  background: rgba(255, 255, 255);
+}
+
+img{
+  max-width: 100%;
+}
+
+.colorVerde{
+ font-size:22px;
+ text-align: center;
+ background: rgba(51, 187, 255);
+ height:50px;
+ width:400px;
+}
+
+#formulario{
+padding:20px 20px;
+}
