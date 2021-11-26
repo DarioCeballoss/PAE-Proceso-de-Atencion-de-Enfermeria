@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <head>
+    <title>WEB</title> 
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/gridFormulario.css">
+        <script src="cliente.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>  
+  
+  <body>
+    
+    <header> 
+      <h1>Plan de Atencion de Enfermeria</h1>
+    </header>
+     
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/indexNuevo.html">Nuevo</a></li>
+        <li><a href="/indexPlanesDeCuidado.html">Planes de Cuidado</a></li>
+      </ul>
+    </nav>
+  
+    <section> 
+      <h2>P.A.E.</h2>
+          
+<!--  ------------------Datos-------------------   --> 
+    <div id="datos">
+        <form name="fromRegistro" action="procesar.php" method="post" >
+          <table id="" name="" border="0" width="" align="center">
+            <tr>
+              <td class="colorVerde" colspan="2">
+                Datos
+              </td>
+            </tr>
+           
+            
+            <tr>
+              <td>
+                Sintomas
+              </td>
+              <td>
+              <textarea id = "nota_descripcion"  cols = "20"  rows = "5"></textarea>
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td class="colorVerde" colspan="2">
+                <input type="submit" name="btnSiguiente" value="Siguiente">
+              </td>
+            </tr>
+          </table>
+        </form> 
+      </div>
+<!--  ------------------Diagnostico de Enferneria-------------------        -->
+     <div id="diagnostico" >
+        <form name="fromRegistro" action="procesar.php" method="post" >
+          <table id="" name="" border="0" width="" align="center" >
+            <tr>
+              <td class="colorVerde" colspan="2">
+               Diagnostico de Enferneria
+              </td>
+            </tr>
+            
+            
+            <tr>
+             <td>
+                Dominio
+             </td>
+             <td>
+              <select name="dominio">
+                <option value="">1-Promocion de la salud</option>
+                <option value="">2-Nutrición</option>
+                <option value="">3-Eliminación e intercambio</option>
+                <option value="">4-Actividad/reposo</option>
+                <option value="">5-Percepcion/cognicion</option>
+                <option value="">6-Autopercepcion</option>
+                <option value="">7-Rol/relaciones</option>
+                <option value="">8-Sexualidad</option>
+                <option value="">9-Afrontamiento/tolerancia al estres</option>
+                <option value="">10-rincipios vitales</option>
+                <option value="">11-Seguridad/proteccion</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Clase
+              </td>
+              <td class="recuadrado">
+                Segun dominio depliega select
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td class="colorVerde" colspan="2">
+                <input type="submit" name="btnSiguiente" value="Siguiente">
+              </td>
+            </tr>
+          </table>
+        </form> 
+      </div>
+<!--  ------------------Objetivos NOC-------------------   -->          
+      <div id="noc">
+        <form name="fromRegistro" action="procesar.php" method="post" >
+          <table id="tabla" name="tabla" border="0" width="" align="center">
+            <tr>
+              <td class="colorVerde" colspan="2">
+               Objetivos NOC
+              </td>
+            </tr>
+           
+            
+            <tr>
+              <td>
+                Sintomas
+              </td>
+              <td>
+              <textarea id=""  cols = "20"  rows = "5"> </textarea>
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td class="colorVerde" colspan="2">
+                <input type="submit" name="btnSiguiente" value="Siguiente">
+              </td>
+            </tr>
+          </table>
+        </form> 
+    </div>
+<!--  ------------------Intervenciones NIC-------------------   -->  
+    <div id="nic">
+           <form name="fromRegistro" action="procesar.php" method="post" >
+          <table id="" name="" border="0" width="" align="center">
+            <tr>
+              <td class="colorVerde" colspan="2">
+               Intervenciones NIC
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td>
+                Sintomas
+              </td>
+              <td>
+              <textarea id=""  cols = "20"  rows = "5"></textarea>
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td class="colorVerde" colspan="2">
+                <input type="submit" name="btnSiguiente" value="Siguiente">
+              </td>
+            </tr>
+          </table>
+        </form> 
+    </div>
+<!--  ------------------Fundamentacion-------------------   -->  
+      <div id="fundamentacion">  
+        <form name="fromRegistro" action="procesar.php" method="post" >
+          <table id="" name="" border="0" width="" align="center">
+            <tr>
+              <td class="colorVerde" colspan="2">
+                Fundamentacion
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td>
+                Sintomas
+              </td>
+              <td>
+              <textarea id=""  cols = "20"  rows = "5"></textarea>
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td class="colorVerde" colspan="2">
+                <input type="submit" name="btnSiguiente" value="Siguiente">
+              </td>
+            </tr>
+          </table>
+        </form> 
+      </div>
+<!--  ------------------Evaluacion resultados esperados-------------------   -->   
+     <div id="resultados">      
+        <form name="fromRegistro" action="procesar.php" method="post" >
+          <table id="" name="tabla" border="0" width="" align="center">
+            <tr>
+              <td class="colorVerde" colspan="2">
+                Evaluacion resultados esperados
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td>
+                Sintomas
+              </td>
+              <td>
+              <textarea id = ""  cols = "20"  rows = "5"></textarea>
+              </td>
+            </tr>
+            
+            
+            <tr>
+              <td class="colorVerde" colspan="2">
+                <input type="submit" name="btnSiguiente" value="Siguiente">
+              </td>
+            </tr>
+          </table>
+        </form> 
+      </div>
+           
+<!--  ------------------Fin TABLA----------   -->   
+          
+    </section>
+    
+    <aside>
+<!--       <img src="https://res.cloudinary.com/djfkgqhfs/image/upload/v1533759186/darioCeballos.png" alt="Dario Ceballos"> -->
+<!--       <img src="https://res.cloudinary.com/djfkgqhfs/image/upload/v1533759186/darioCeballos.png" alt="Dario Ceballos">       -->
+    </aside>
+      
+    <footer>
+      Pie de pagina
+    </footer>
+  
+  </body>
+
+</html>
